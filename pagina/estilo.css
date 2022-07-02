@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    background-color: #000000;
+}
+body{
+	font-family: 'Open Sans';
+}
+
+header{
+	background-color: #000000;
+	padding: 50px;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+	color: #ffffff;
+	margin: 0 30px;
+	padding: 5px 15px;
+	border-radius: 30px;
+}
+nav a:hover {
+	background-color: #000000;
+	color: #000000;
+}
+
+#contenedor{
+display: flex;
+width: 100%;
+justify-content: space-around;
+flex-wrap: wrap;
+max-width: 350px;
+margin: auto;
+
+}
+.tienda{
+	background-size: cover;
+	max-width: 50%;
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin: auto;
+	text-align: left;
+	color: #ffffff;
+	
+}
+
+.tienda h1{
+	font-size: 55px;
+	padding: 25px 0;
+	margin: auto;
+	float: right;
+	background-color: transparent;
+	text-align: bottom;
+	
+}
+.encabezado-img{
+	background-size: cover;
+	max-width: 50%;
+	width: 250px;
+	height: 300px;
+	display: block;
+	margin: auto;
+	text-align: center;
+	color: #ffffff;
+	
+
+}
+
+.pie-fotos{
+	width: 300px;
+	height: 200px;
+	margin-bottom: 30%;
+	object-fit: cover;
+	filter: brightness(70%);
+}
+.pie-fotos :hover{
+	filter: brightness(100%);
+
+}
+
+
+
+
+
